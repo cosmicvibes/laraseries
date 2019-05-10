@@ -7,9 +7,8 @@ use Cosmicvibes\Laraseries\NumberSeries;
 
 class LaraseriesFunctionTest extends TestCase
 {
-
     /**
-     * Check that we can create a model
+     * Check that we can create a model.
      * @return void
      */
     public function testNumberSeriesModelExists(): void
@@ -19,12 +18,11 @@ class LaraseriesFunctionTest extends TestCase
     }
 
     /**
-     * Check that we can manually create a number series and advance it
+     * Check that we can manually create a number series and advance it.
      * @return void
      */
     public function testFullManualSeries(): void
     {
-
         $starting_number = 6;
         $ending_number = 500;
         $last_used_number = 10;
@@ -43,7 +41,7 @@ class LaraseriesFunctionTest extends TestCase
             'active' => true,
             'starting_number' => $starting_number,
             'ending_number' => $ending_number,
-            'last_used_number' => $last_used_number
+            'last_used_number' => $last_used_number,
         ];
 
         $numberSeries = new NumberSeries();
@@ -71,16 +69,14 @@ class LaraseriesFunctionTest extends TestCase
 
         // Check that we cannot advance further
         $this->assertNull($numberSeries->advance());
-
     }
 
     /**
-     * Check that we can create a number series using defaults and advance it
+     * Check that we can create a number series using defaults and advance it.
      * @return void
      */
     public function testSemiAutoSeries(): void
     {
-
         $starting_number = 0;
         $increment_by = 5;
         $data = [
@@ -124,6 +120,5 @@ class LaraseriesFunctionTest extends TestCase
 
         // Check that we cannot advance further
         $this->assertNull($numberSeries->advance());
-
     }
 }
