@@ -1,5 +1,6 @@
 [![Total Downloads](https://poser.pugx.org/cosmicvibes/laraseries/downloads)](https://packagist.org/packages/cosmicvibes/laraseries)
 [![License](https://poser.pugx.org/cosmicvibes/laraseries/license)](https://packagist.org/packages/cosmicvibes/laraseries)
+[![Build Status](https://travis-ci.org/cosmicvibes/laraseries.svg?branch=master)](https://travis-ci.org/cosmicvibes/laraseries)
 
 # Laraseries: Laravel Number Series Package
 
