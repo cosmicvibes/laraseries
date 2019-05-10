@@ -2,8 +2,8 @@
 
 namespace Cosmicvibes\Laraseries;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model;
 
 class NumberSeries extends Model
 {
@@ -20,7 +20,7 @@ class NumberSeries extends Model
         'active',
         'starting_number',
         'ending_number',
-        'last_used_number'
+        'last_used_number',
     ];
 
     protected $dates = [
@@ -51,6 +51,7 @@ class NumberSeries extends Model
     private function currentNumber()
     {
         $last_used_number = str_pad($this->last_used_number, $this->length, $this->padding_character, STR_PAD_LEFT);
+
         return $this->prefix.$last_used_number.$this->suffix;
     }
 

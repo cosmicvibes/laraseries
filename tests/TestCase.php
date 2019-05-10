@@ -6,10 +6,8 @@ use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
 {
-
-
     /**
-     * Load package service provider
+     * Load package service provider.
      * @param  \Illuminate\Foundation\Application  $app
      * @return Cosmicvibes\Laraseries\LaraseriesServiceProvider
      */
@@ -41,6 +39,4 @@ abstract class TestCase extends OrchestraTestCase
 
         $this->artisan('migrate', ['--database' => 'testbench'])->run();
     }
-
-
 }
