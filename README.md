@@ -1,5 +1,8 @@
+[![Latest Stable Version](https://poser.pugx.org/cosmicvibes/laraseries/v/stable)](https://packagist.org/packages/cosmicvibes/laraseries)
+[![Latest Unstable Version](https://poser.pugx.org/cosmicvibes/laraseries/v/unstable)](https://packagist.org/packages/cosmicvibes/laraseries)
 [![Total Downloads](https://poser.pugx.org/cosmicvibes/laraseries/downloads)](https://packagist.org/packages/cosmicvibes/laraseries)
 [![License](https://poser.pugx.org/cosmicvibes/laraseries/license)](https://packagist.org/packages/cosmicvibes/laraseries)
+[![StyleCI](https://styleci.io/repos/185823064/shield?branch=master)](https://styleci.io/repos/185823064)
 [![Build Status](https://travis-ci.org/cosmicvibes/laraseries.svg?branch=master)](https://travis-ci.org/cosmicvibes/laraseries)
 
 # Laraseries: Laravel Number Series Package
