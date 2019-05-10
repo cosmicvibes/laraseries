@@ -1,3 +1,4 @@
+[![Total Downloads](https://poser.pugx.org/cosmicvibes/laraseries/downloads)](https://packagist.org/packages/cosmicvibes/laraseries)
 [![License](https://poser.pugx.org/cosmicvibes/laraseries/license)](https://packagist.org/packages/cosmicvibes/laraseries)
 
 # Laraseries: Laravel Number Series Package
@@ -17,7 +18,7 @@ Will likely work on other versions, but is untested.
 
 1) Install the package by running this command in your terminal/cmd:
 ```
-composer require cosmicvibes/laraseries
+composer require cosmicvibes/laraseries dev-master
 ```
 
 ## Usage
