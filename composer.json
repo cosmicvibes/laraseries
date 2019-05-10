@@ -1,0 +1,36 @@
+{
+  "name": "cosmicvibes/laraseries",
+  "description": "Number series package for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Charlie Pearce",
+      "email": "cjp@cosmicvibes.net",
+      "homepage": "https://github.com/cosmicvibes/laraseries"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^8.2@dev",
+    "orchestra/testbench": "^3.9@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cosmicvibes\\Laraseries\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cosmicvibes\\Laraseries\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cosmicvibes\\Laraseries\\LaraseriesServiceProvider"
+      ]
+    }
+  }
+}
